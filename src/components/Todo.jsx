@@ -23,7 +23,7 @@ const Todo = () => {
   };
 
   useEffect(() => {
-    fetch("https://4q528r.sse.codesandbox.io/todos?_page=1&_limit=3")
+    fetch("https://4q528r.sse.codesandbox.io/todos?_page=1&_limit=5")
       .then((r) => r.json())
       .then((d) => {
         setTodo(d);
